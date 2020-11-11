@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">Advance System</string>
+
+    <!--Toolbar menus-->
+    <string name="clear">Clear</string>
+    <string name="cut">Cut</string>
+    <string name="copy">Copy</string>
+    <string name="paste">Paste</string>
+    <string name="delete">Delete</string>
+    <string name="share">Share</string>
+
+    <!--Drawer-->
+    <string name="open_drawer">Drawer Open</string>
+    <string name="close_drawer">Drawer Close</string>
+
+    <!--Drawer Menus-->
+    <string name="about">About</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="async_data">Đồng bộ data</string>
+    <string name="feed">My Feed</string>
+    <!--layout main-->
+    <string name="main_title">Danh sách công việc</string>
+    <!--layout outlet-->
+    <string name="outlet_title">Outlet List</string>
+    <!--layout project-->
+    <string name="project_title">Project List</string>
+    <!--App Message-->
+    <string name="api_retry_error">Please retry!</string>
+    <string name="api_default_error">Something wrong happened!</string>
+    <string name="some_error">Lỗi không xác định, Vui lòng thử lại sau!</string>
+    <string name="error_connect_internet">Không thể kết nối máy chủ, Vui lòng kiểm tra kết nối!</string>
+    <string name="connection_error">Internet connection lost!</string>
+
+    <!--Login-->
+    <string name="login_dummy">Advance System</string>
+    <string name="login">Đăng nhập </string>
+    <string name="user_name">Tên đăng nhập </string>
+    <string name="password">Mật khẩu </string>
+    <string name="txt_enter_info">Vui lòng nhập thông tin</string>
+    <string name="txt_remember_me">Ghi nhớ đăng nhập</string>
+
+    <!--Login Validation-->
+    <string name="empty_user_name">Vui lòng nhập tên tài khoản</string>
+    <string name="invalid_user_name">Tên tài khoản không hợp lệ</string>
+    <string name="empty_password">Vui lòng nhập mật khẩu</string>
+
+    <!--Photo Validation-->
+    <string name="empty_object">Dữ liệu không hợp lệ!</string>
+    <string name="invalid_image_1">Image 1 chưa được chon!</string>
+    <string name="invalid_image_2">Image 2 chưa được chon!</string>
+    <string name="empty_location_error">Không thể lấy được vị trí của bạn, Vui lòng bật định vị và thử lại!</string>
+    <string name="location_loading">Xin vui lòng đợi lấy vị trí...</string>
+    <string name="location_success">Lấy vị trí thành công...</string>
+    <string name="save_data_success">Lưu dữ liệu thành công!</string>
+    <string name="not_data">Chưa có dữ liệu cho mục này</string>
+    <string name="task_doing">Task chưa thực hiện</string>
+    <string name="task_success">Task thành công</string>
+    <!--about fragment-->
+    <string name="project_info">This sample app implements MVP architecture using Dagger2, GreenDao, RxJava, FastAndroidNetworking and PlaceholderView</string>
+    <string name="link_mvp_blog">1. https://blog.mindorks.com</string>
+    <string name="link_mvp_repo">2. https://github.com/MindorksOpenSource/android-mvp-architecture</string>
+    <string name="link_mindorks_blog">3. https://blog.mindorks.com</string>
+    <string name="link_mindorks_repo">4. https://github.com/MindorksOpenSource</string>
+    <string name="version">"version"</string>
+
+    <!--rating dialog-->
+    <string name="rate_us">Rate Us</string>
+    <string name="rating_message">Please let us know, how can we improve ourselves?</string>
+    <string name="rating_play_store_redirect_message_line_1">Awesome! Thank you for the 5 stars.</string>
+    <string name="rating_play_store_redirect_message_line_2">Please help others, in knowing some good things about this app.</string>
+    <string name="rating_play_store_text">Rate us on Play Store</string>
+    <string name="rating_not_provided_error">Please provide us stars.</string>
+    <string name="rating_thanks">Thank you!</string>
+
+    <!--play store-->
+    <string name="app_google_play_store_link">"https://play.google.com/store/apps/details?id="</string>
+    <string name="app_market_link">"market://details?id="</string>
+
+    <!--button-->
+    <string name="later">Later</string>
+    <string name="submit">Submit</string>
+
+    <!--feed-->
+    <string name="title">My Feed</string>
+    <string name="open_source">Open Source</string>
+    <string name="blog">Blog</string>
+
+
+    <!--empty state-->
+    <string name="empty_screen">We do not have anything\nhere right now.</string>
+    <string name="please_retry">Please Retry</string>
+    <string name="retry">Retry</string>
+    <!--feed-->
+    <string name="day_view">Day View</string>
+    <string name="month_view">Month View</string>
+
+    <!--add task-->
+    <string name="title_add_new_customer">Thêm thông tin khách hàng</string>
+    <string name="txt_info_customer">Thông tin cá nhân khách hàng</string>
+    <string name="txt_store_name">Tên cửa hàng: </string>
+    <string name="txt_store_type">Loại Cửa hàng: </string>
+    <string name="txt_address_number"> Số nhà: </string>
+    <string name="txt_street_name">Tên đường: </string>
+    <string name="txt_town">Xã/Phường/Thị Trấn: </string>
+    <string name="txt_district">Quận/Huyện: </string>
+    <string name="txt_city">Tỉnh/Thành Phố:  </string>
+    <string name="txt_image_posm_location">Hình Tổng Thể Thấy Vị Trí POSM Đã Lắp Đặt  </string>
+    <string name="txt_poster_image">Hình Poster </string>
+    <string name="btn_save_info">Lưu Thông Tin</string>
+    <string name="txt_choose_region">Chọn vùng</string>
+    <string name="title_add_outlet">Add outlet</string>
+    <string name="txt_address">Địa chỉ</string>
+    <string name="txt_ward">Xã/Phường/Thị Trấn</string>
+
+    <string name="err_store_name">Tên cửa hàng không được để trống </string>
+    <string name="err_address_number"> Số nhà không được để trống </string>
+    <string name="err_street_name">Tên đường không được để trống</string>
+    <string name="err_town">Xã/Phường/Thị Trấn không được để trống</string>
+    <string name="err_district">Quận/Huyện không được để trống</string>
+    <string name="err_city">Tỉnh/Thành Phố không được để trống</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="store_type_arrays">
+        <item name="1">Cafe</item>
+        <item name="2">Tạp Hóa</item>
+        <item name="3">Quán ăn</item>
+        <item name="4">Khác</item>
+    </string-array>
+    <string-array name="list_area">
+        <item name="1">Chọn vùng</item>
+
+    </string-array>
+    <string-array name="list_provice">
+        <item name="1">Chọn tỉnh/thành phố</item>
+
+    </string-array>
+    <string-array name="list_district">
+        <item name="1">Chọn quận/huyện</item>
+
+    </string-array>
+
+</resources>
