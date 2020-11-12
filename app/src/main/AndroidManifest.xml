@@ -19,9 +19,7 @@
         android:networkSecurityConfig="@xml/network_security_config"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.outlet.AddOutletActivity"></activity>
-        <activity android:name=".ui.task.info.TaskInformation" />
-        <activity android:name=".ui.project.ProjectActivity" />
+        <activity android:name=".ui.project.ProjectActivity"></activity>
         <activity android:name=".ui.outlet.OutletActivity" />
         <activity
             android:name=".ui.splash.SplashActivity"

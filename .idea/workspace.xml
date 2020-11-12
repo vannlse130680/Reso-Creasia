@@ -16,7 +16,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="AHW00017363" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Samsung_Galaxy_S8_API_29" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -33,8 +33,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="layoutResourceFile_vertical" />
-        <option value="layoutResourceFile" />
         <option value="Class" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -56,7 +56,8 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-05-15T04:25:56.225Z" />
     <property name="ExportApk.ApkPath" value="D:\android\creasia\app" />
     <property name="ExportApk.BuildVariants" value="release" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="E:/android_app-master" />
     <property name="project.structure.last.edited" value="Build Variants" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -70,9 +71,16 @@
   </component>
   <component name="RecentsManager">
     <key name="android.template.packageName">
-      <recent name="com.creasia.ui.outlet" />
-      <recent name="com.creasia.ui.task.info" />
       <recent name="com.creasia.ui.project" />
+      <recent name="com.creasia.ui.outlet" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.creasia.ui.task.info" />
+      <recent name="com.creasia.ui.outlet" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kimik\Downloads\android_app-master\app\src\main\res\layout" />
+      <recent name="C:\Users\kimik\Downloads\android_app-master\app\src\main\res\drawable" />
     </key>
   </component>
   <component name="RunDashboard">

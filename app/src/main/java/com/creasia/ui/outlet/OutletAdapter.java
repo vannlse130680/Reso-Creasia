@@ -42,17 +42,21 @@ public class OutletAdapter extends ArrayAdapter<Outlets> {
                 .centerCrop()
                 .into(view);
         TextView txtLocationName = convertView.findViewById(R.id.item_txtLocationName);
-        txtLocationName.setText(item_current.getLocationName());
         TextView txtCode = convertView.findViewById(R.id.item_txtCode);
-        txtCode.setText(item_current.getCode());
         TextView txtOutletName = convertView.findViewById(R.id.item_txtOutletName);
-        txtOutletName.setText(item_current.getOutletName());
         TextView txtTime = convertView.findViewById(R.id.item_txtTime);
-        txtTime.setText(item_current.getTimeAccess());
         TextView txtLocation = convertView.findViewById(R.id.item_txtLocate);
-        txtLocation.setText(item_current.getLocation());
         TextView txtStatus = convertView.findViewById(R.id.item_txtStatus);
-        txtLocation.setText(item_current.getLocation());
+
+        if(txtLocationName != null && txtCode != null && txtOutletName != null && txtTime != null && txtStatus!=null && txtLocation != null){
+            txtLocationName.setText(item_current.getLocationName());
+            txtCode.setText(item_current.getCode());
+            txtOutletName.setText(item_current.getOutletName());
+            txtTime.setText(item_current.getTimeAccess());
+            txtLocation.setText(item_current.getLocation());
+            txtStatus.setText(item_current.getStatus());
+        }
+
         return convertView;
     }
 

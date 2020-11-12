@@ -1,7 +1,5 @@
 package com.creasia.ui.outlet;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
 import com.creasia.R;

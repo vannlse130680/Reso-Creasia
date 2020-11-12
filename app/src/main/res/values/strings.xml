@@ -111,7 +111,6 @@
     <string name="title_add_outlet">Add outlet</string>
     <string name="txt_address">Địa chỉ</string>
     <string name="txt_ward">Xã/Phường/Thị Trấn</string>
-
     <string name="err_store_name">Tên cửa hàng không được để trống </string>
     <string name="err_address_number"> Số nhà không được để trống </string>
     <string name="err_street_name">Tên đường không được để trống</string>
