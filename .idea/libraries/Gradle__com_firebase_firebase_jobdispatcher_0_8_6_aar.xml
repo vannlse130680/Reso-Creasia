@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.firebase:firebase-jobdispatcher:0.8.6@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e0bd68ffab01752277b4a520eb8e0672/jetified-firebase-jobdispatcher-0.8.6/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e5ca44eb82ee44feef10623639f37151/jetified-firebase-jobdispatcher-0.8.6/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e0bd68ffab01752277b4a520eb8e0672/jetified-firebase-jobdispatcher-0.8.6/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e0bd68ffab01752277b4a520eb8e0672/jetified-firebase-jobdispatcher-0.8.6/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e5ca44eb82ee44feef10623639f37151/jetified-firebase-jobdispatcher-0.8.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e5ca44eb82ee44feef10623639f37151/jetified-firebase-jobdispatcher-0.8.6/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-jobdispatcher/0.8.6/a795c7dc5dfebcba479d1cf080828861c7ae16c5/firebase-jobdispatcher-0.8.6-javadoc.jar!/" />

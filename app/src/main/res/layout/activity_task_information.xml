@@ -71,11 +71,30 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:orientation="vertical">
-
                         <TextView
                             android:layout_margin="7dp"
                             android:textSize="18sp"
-                            android:text="@string/txt_store_name"
+                            android:text="Nhân viên thực hiện"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/red_dark"
+                            android:textStyle="bold"/>
+                        <EditText
+                            android:id="@+id/edt_employee_name"
+                            android:layout_margin="7dp"
+                            android:paddingLeft="5dp"
+                            android:inputType="text"
+                            android:maxLines="1"
+                            android:background="@drawable/rounded_edittext"
+                            android:nextFocusDown="@id/edt_name_store"
+                            android:layout_width="match_parent"
+
+                            android:textColorHint="@color/cardview_dark_background"
+                            android:layout_height="38dp"/>
+                        <TextView
+                            android:layout_margin="7dp"
+                            android:textSize="18sp"
+                            android:text="Tên cửa hàng"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textColor="@color/red_dark"
@@ -87,15 +106,32 @@
                             android:inputType="text"
                             android:maxLines="1"
                             android:background="@drawable/rounded_edittext"
-                            android:nextFocusDown="@id/spn_area"
+                            android:nextFocusDown="@id/spn_store_type"
                             android:layout_width="match_parent"
-                            android:hint="Tên cửa hàng"
+
                             android:textColorHint="@color/cardview_dark_background"
                             android:layout_height="38dp"/>
                         <TextView
                             android:layout_margin="7dp"
                             android:textSize="18sp"
-                            android:text="Chọn vùng:"
+                            android:text="Loại hinh"
+                            android:textColor="@color/red_dark"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <Spinner
+                            android:id="@+id/spn_store_type"
+                            android:layout_margin="7dp"
+                            android:paddingLeft="5dp"
+
+                            android:background="@drawable/rounded_spinner"
+                            android:nextFocusDown="@id/spn_area"
+                            android:layout_width="match_parent"
+                            android:layout_height="38dp"/>
+                        <TextView
+                            android:layout_margin="7dp"
+                            android:textSize="18sp"
+                            android:text="Chọn vùng"
                             android:textColor="@color/red_dark"
                             android:textStyle="bold"
                             android:layout_width="wrap_content"
@@ -104,7 +140,7 @@
                             android:id="@+id/spn_area"
                             android:layout_margin="7dp"
                             android:paddingLeft="5dp"
-                            android:entries="@array/list_area"
+
                             android:background="@drawable/rounded_spinner"
                             android:nextFocusDown="@id/spn_province"
                             android:layout_width="match_parent"
@@ -112,7 +148,7 @@
                         <TextView
                             android:layout_margin="7dp"
                             android:textSize="18sp"
-                            android:text="@string/txt_city"
+                            android:text="Tỉnh/thành phố"
                             android:textColor="@color/red_dark"
                             android:textStyle="bold"
                             android:layout_width="wrap_content"
@@ -121,77 +157,12 @@
                             android:id="@+id/spn_province"
                             android:layout_margin="7dp"
                             android:paddingLeft="5dp"
-                            android:entries="@array/list_provice"
+
                             android:background="@drawable/rounded_spinner"
                             android:nextFocusDown="@id/spn_district"
                             android:layout_width="match_parent"
                             android:layout_height="38dp"/>
-                        <TextView
-                            android:layout_margin="7dp"
-                            android:textSize="18sp"
-                            android:text="@string/txt_district"
-                            android:textColor="@color/red_dark"
-                            android:textStyle="bold"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"/>
-                        <Spinner
-                            android:id="@+id/spn_district"
-                            android:layout_margin="7dp"
-                            android:paddingLeft="5dp"
-                            android:entries="@array/list_district"
-                            android:background="@drawable/rounded_spinner"
-                            android:nextFocusDown="@id/edt_ward"
-                            android:layout_width="match_parent"
-                            android:layout_height="38dp"/>
-                        <TextView
-                            android:layout_margin="7dp"
-                            android:textSize="18sp"
-                            android:text="@string/txt_town"
-                            android:textColor="@color/red_dark"
-                            android:textStyle="bold"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"/>
-                        <EditText
-                            android:id="@+id/edt_ward"
-                            android:layout_margin="7dp"
-                            android:paddingLeft="5dp"
-                            android:inputType="text"
-                            android:maxLines="1"
-                            android:background="@drawable/rounded_edittext"
-                            android:nextFocusDown="@id/edt_address"
-                            android:layout_width="match_parent"
-                            android:hint="Phường xã"
-                            android:textColorHint="@color/cardview_dark_background"
-                            android:layout_height="38dp"/>
 
-                        <TextView
-                            android:layout_margin="7dp"
-                            android:textSize="18sp"
-                            android:text="Địa chỉ:"
-                            android:textColor="@color/red_dark"
-                            android:textStyle="bold"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"/>
-                        <EditText
-                            android:id="@+id/edt_address"
-                            android:layout_margin="7dp"
-                            android:paddingLeft="5dp"
-                            android:inputType="text"
-                            android:maxLines="1"
-                            android:background="@drawable/rounded_edittext"
-                            android:hint="Địa chỉ"
-                            android:textColorHint="@color/cardview_dark_background"
-                            android:nextFocusDown="@id/btn_save"
-                            android:layout_width="match_parent"
-                            android:layout_height="38dp"/>
-                        <TextView
-                            android:layout_margin="7dp"
-                            android:textSize="12sp"
-                            android:textStyle="bold"
-                            android:textColor="@color/red_logo"
-                            android:text="@string/txt_enter_info"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"/>
 
 
                     </LinearLayout>
